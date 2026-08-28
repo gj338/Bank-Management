@@ -5,7 +5,7 @@ using namespace std;
 
 Hashtable:: Hashtable()
 {
-	start = nullptr;
+	start = nullptr; //HASHTABLE HAS A POINTER START POINTING TO NODE OBJECT
 }
 void Hashtable:: starthash()
 {
