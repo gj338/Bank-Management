@@ -15,7 +15,7 @@ void Hashtable:: starthash()
 		if (start == nullptr)
 		{
 			start = temp1; //HASHTABLE'S ATTRIBUTE IS CHANGED TO POINTER POINTING TO NEW NODE
-		}
+		} //IF BRANCH RUNS JUST ONCE
 		else
 		{
 			Node * current = start;
