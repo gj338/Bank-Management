@@ -1,3 +1,4 @@
+//has 2 pointers next and pre, one for Node type one for Node_1 type, constructors to set its attributes
 #pragma once
 # include <iostream>
 using namespace std;
