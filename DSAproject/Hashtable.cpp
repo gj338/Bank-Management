@@ -11,10 +11,10 @@ void Hashtable:: starthash()
 {
 	for (int i = 0; i < 12; i++)
 	{
-		Node * temp1 = new Node(i);
+		Node * temp1 = new Node(i); //this sets new Node's attributes next and pre to nullptr, and data to i
 		if (start == nullptr)
 		{
-			start = temp1;
+			start = temp1; //HASHTABLE'S ATTRIBUTE IS CHANGED TO POINTER POINTING TO NEW NODE
 		}
 		else
 		{
